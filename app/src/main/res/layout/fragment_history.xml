@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/page_loader"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/page_empty"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:src="@drawable/ic_error" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/word_empty_history_title"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:paddingRight="50dp"
+                android:paddingBottom="20dp"
+                android:text="@string/word_empty_history_subtitle"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

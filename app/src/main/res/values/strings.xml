@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Valores padrões -->
+    <string name="app_name">Dynaquiz</string>
+
+    <!-- Navegação -->
+    <string name="navigation_home">Quiz</string>
+    <string name="navigation_history">Histórico</string>
+    <string name="word_error_title">Temos um problema</string>
+    <string name="word_error_subtitle">Infelizmente algo inesperado aconteceu e não conseguimos chegar aos nossos servidores! Tente novamente mais tarde.</string>
+    <string name="word_identify_title">Quem é você?</string>
+    <string name="word_identify_subtitle">Para oferecer uma experiência customizada para você, precisamos saber de algumas coisas.</string>
+    <string name="word_identify_input">Digite seu nome ou apelido</string>
+    <string name="word_identify_submit">Vamo nessa!</string>
+    <string name="word_finish_title">Você acertou</string>
+    <string name="word_finish_subtitle">do nosso super quiz.</string>
+    <string name="word_finish_restart">Tentar novamente</string>
+    <string name="word_empty_history_title">Seu histórico se encontra vazio!</string>
+    <string name="word_empty_history_subtitle">Infelizmente você ainda não tentou realizar o nosso quiz, e por isso não temos nenhuma informação para mostrar.</string>
+    <string name="word_welcome_title">Vamos testar suas habilidades?</string>
+    <string name="word_welcome_subtitle">Se considera uma pessoa com alto QI? Então esse quiz é perfeito para aumentar seu conhecimento geral de forma muito divertida!</string>
+    <string name="word_welcome_start">Iniciar quiz</string>
+
+</resources>

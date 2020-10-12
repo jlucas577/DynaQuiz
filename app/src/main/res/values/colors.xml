@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Cores primárias -->
+    <color name="colorPrimary">#458aff</color>
+    <color name="colorPrimaryDark">#196eff</color>
+    <color name="colorAccent">#6ca3ff</color>
+
+    <!-- Cores globais -->
+    <color name="mainBackground">#eceff1</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f1252d</color>
+    <color name="black">#000000</color>
+    <color name="grey">#666666</color>
+
+    <!-- Navegação -->
+    <color name="navigationBackground">#ffffff</color>
+    <color name="navigationButton">#737373</color>
+    <color name="navigationButtonFocused">#458aff</color>
+
+    <!-- Botões -->
+    <color name="buttonAnswer">#eceff1</color>
+
+</resources>
