@@ -2,7 +2,7 @@
 
 Desenvolvimento de um simples aplicativo de quiz para Android na linguagem Kotlin.
 
-![Logo do aplicativo](https://raw.githubusercontent.com/jlucas577/dynaquiz/main/app/src/main/ic_launcher-web.png?token=AJQ4PI44UW5RE3FT2DZCZJ27QPEMW)
+![Logo do aplicativo](https://github.com/jlucas577/dynaquiz/blob/main/app/src/main/ic_launcher-web.png?raw=true)
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
